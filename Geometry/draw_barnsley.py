@@ -75,6 +75,7 @@ def draw_fern(n):
 
     return x, y
 
+
 n = int(input('Enter the number of points in the Fern: '))
 x, y = draw_fern(n)
 plt.plot(x, y, 'o')
